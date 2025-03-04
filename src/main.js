@@ -1,31 +1,3 @@
-window.addEventListener("DOMContentLoaded", () => {
-  handleRouting();
-});
-
-window.addEventListener("popstate", () => {
-  handleRouting();
-});
-
-function handleRouting() {
-  const path = window.location.pathname;
-
-  if (path === "/about") {
-    document.getElementById("app").innerHTML = "<h1>About Page</h1>";
-  } else if (path === "/contact") {
-    document.getElementById("app").innerHTML = "<h1>Contact Page</h1>";
-  } else {
-    document.getElementById("app").innerHTML = "<h1>Home Page</h1>";
-  }
-}
-
-// Handle navigation links
-document.addEventListener("click", (e) => {
-  if (e.target.tagName === "A" && e.target.getAttribute("href").startsWith("/")) {
-    e.preventDefault();
-    history.pushState({}, "", e.target.href);
-    handleRouting();
-  }
-});
 
 
 
