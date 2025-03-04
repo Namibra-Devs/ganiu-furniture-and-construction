@@ -9,6 +9,14 @@
   <!-- CSS -->
   <link rel="stylesheet" href="/src/style.css">
 
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/public/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+  <link rel="shortcut icon" href="/public/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
+  <link rel="manifest" href="/public/site.webmanifest" />
+
   <!-- JS -->
   <script type="module" src="/src/main.js" defer></script>
 
@@ -20,10 +28,10 @@
   <!-- Navigation Menu -->
   <div class="fixed top-0 w-full z-50 nav-div p-2 bg-primary text-secondary-light">
     <nav class="nav-menuMain lg:w-10/12 w-11/12 mx-auto py-4 flex justify-between items-center">
-      <a href="/index.html" class="font-bold text-xl font-header">
-        <div class="logo">
-          GAFCON
-          <!-- <img src="/src/logo.png" alt="Ganiu Furniture and Construction Logo"> -->
+       <a href="/index.html" class="font-bold text-xl font-header">
+        <div class="logo w-15 h-15">
+          
+          <img src="/src/img/logo-s.png" alt="Ganiu Furniture and Construction Logo">
         </div>
       </a>
 
@@ -44,7 +52,7 @@
           <li class="nav-menuItem">
             <a href="/src/about.html" class="nav-link py-1 mx-1 hover:border-b-2">About</a>
           </li>
-         <li class="nav-menuItem">
+          <li class="nav-menuItem">
             <a href="/src/portfolio.html" class="nav-link py-1 mx-1 hover:border-b-2">Portfolio</a>
           </li>
           <li class="nav-menuItem">
@@ -86,157 +94,158 @@
     </section>
 
 
-     <!-- Portfolio -->
-  <section class="portfolio">
-    <div class="container lg:w-10/12 w-11/12 mx-auto py-16">
+    <!-- Portfolio -->
+    <section class="portfolio">
+      <div class="container lg:w-10/12 w-11/12 mx-auto py-16">
 
-      <!-- Portfolioi Items -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <!-- Portfolioi Items -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
 
-        <div class="portfolio-item md:hidden block">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio2.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-70 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-
-        <div class="portfolio-item grid grid-col-1 gap-3">
-
-          <div class="grid grid-cols-2 gap-3">
-            <!-- Portfolio Item -->
-            <div class="portfolio-item">
-              <a href="">
-                <img src="/src/img/portfolio/portfolio4.jpg" alt="portfolio item 1"
-                  class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-              </a>
-            </div>
-            <!-- Portfolio Item -->
-            <div class="portfolio-item">
-              <a href="">
-                <img src="/src/img/portfolio/portfolio3.jpg" alt="portfolio item 1"
-                  class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-              </a>
-            </div>
-          </div>
-
-          <div class="portfolio-item hidden md:block">
+          <div class="portfolio-item md:hidden block">
             <a href="">
               <img src="/src/img/portfolio/portfolio2.jpg" alt="portfolio item 1"
                 class="object-cover w-full mx-auto h-70 hover:transform hover:scale-150 transition ease-in-out duration-300">
             </a>
           </div>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio1.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-full hover:transform hover:scale-125 transition ease-in-out duration-300">
-          </a>
+
+          <div class="portfolio-item grid grid-col-1 gap-3">
+
+            <div class="grid grid-cols-2 gap-3">
+              <!-- Portfolio Item -->
+              <div class="portfolio-item">
+                <a href="">
+                  <img src="/src/img/portfolio/portfolio4.jpg" alt="portfolio item 1"
+                    class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+                </a>
+              </div>
+              <!-- Portfolio Item -->
+              <div class="portfolio-item">
+                <a href="">
+                  <img src="/src/img/portfolio/portfolio3.jpg" alt="portfolio item 1"
+                    class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-item hidden md:block">
+              <a href="">
+                <img src="/src/img/portfolio/portfolio2.jpg" alt="portfolio item 1"
+                  class="object-cover w-full mx-auto h-70 hover:transform hover:scale-150 transition ease-in-out duration-300">
+              </a>
+            </div>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio1.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-full hover:transform hover:scale-125 transition ease-in-out duration-300">
+            </a>
+          </div>
+
         </div>
 
+        <div class="grid md:grid-cols-3 grid-cols-1 gap-5 mt-10 mx-auto">
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio1.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio2.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio3.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio4.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio1.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio2.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio1.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio2.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio3.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio4.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio1.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+          <!-- Portfolio Item -->
+          <div class="portfolio-item">
+            <a href="">
+              <img src="/src/img/portfolio/portfolio2.jpg" alt="portfolio item 1"
+                class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
+            </a>
+          </div>
+
+        </div>
+
+        <!-- See More -->
+        <div class="mt-10 flex justify-end w-full">
+          <a href="#seemore"
+            class="btn-primary border-2 border-secondary text-secondary hover:text-white hover:bg-secondary px-4 py-2 flex  items-center gap-2 font-header transition-all duration-300 ease-in-out">Load
+            More
+            <svg class="w-6 h-6 inline" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M19 12H5m14 0-4 4m4-4-4-4" />
+            </svg>
+          </a>
+        </div>
       </div>
-
-      <div class="grid md:grid-cols-3 grid-cols-1 gap-5 mt-10 mx-auto">
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio1.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio2.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio3.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio4.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio1.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio2.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio1.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio2.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio3.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio4.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio1.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-        <!-- Portfolio Item -->
-        <div class="portfolio-item">
-          <a href="">
-            <img src="/src/img/portfolio/portfolio2.jpg" alt="portfolio item 1"
-              class="object-cover w-full mx-auto h-60 hover:transform hover:scale-150 transition ease-in-out duration-300">
-          </a>
-        </div>
-
-      </div>
-
-      <!-- See More -->
-      <div class="mt-10 flex justify-end w-full">
-        <a href="#seemore"
-          class="btn-primary border-2 border-secondary text-secondary hover:text-white hover:bg-secondary px-4 py-2 flex  items-center gap-2 font-header transition-all duration-300 ease-in-out">Load More
-          <svg class="w-6 h-6 inline" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-            fill="none" viewBox="0 0 24 24">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M19 12H5m14 0-4 4m4-4-4-4" />
-          </svg>
-        </a>
-      </div>
-    </div>
-  </section>
+    </section>
   </main>
 
   <!-- Footer -->
@@ -245,8 +254,14 @@
       <div class="footer-content grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
         <!-- Footer Column -->
         <div class="footer-column">
-          <h3 class="text-white font-header font-bold text-xl mb-4">GAFCON</h3>
-          <p class="text-white max-w-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+           <h3 class="text-white font-header font-bold text-xl mb-2">
+            <a href="/index.html" class="font-bold text-xl font-header">
+              <div class="logo w-15 h-15">
+                <img src="/src/img/logo-s.png" alt="Ganiu Furniture and Construction Logo">
+              </div>
+            </a>
+          </h3>
+          <p class="text-white max-w-sm text-sm">Experience the difference that passion for design, commitment to quality, and personalized service.</p>
 
           <!-- Footer Column -->
           <div class="footer-column mt-5 space-y-1">
@@ -290,7 +305,7 @@
         <!-- Footer Column -->
         <div class="footer-column">
           <h3 class="text-white font-header text-xl mb-3">Quick Links</h3>
-         <ul class="text-white">
+          <ul class="text-white">
             <li class="mb-2"><a href="/index.html" class="hover:text-secondary">Home</a></li>
             <li class="mb-2"><a href="/src/about.html" class="hover:text-secondary">About</a></li>
             <li class="mb-2"><a href="/src/products.html" class="hover:text-secondary">Products</a></li>

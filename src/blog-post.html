@@ -9,6 +9,15 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/src/style.css">
 
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/public/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+    <link rel="shortcut icon" href="/public/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
+    <link rel="manifest" href="/public/site.webmanifest" />
+
+
     <!-- JS -->
     <script type="module" src="/src/main.js" defer></script>
 
@@ -21,9 +30,9 @@
     <div class="fixed top-0 w-full z-50 nav-div p-2 bg-primary text-secondary-light">
         <nav class="nav-menuMain lg:w-10/12 w-11/12 mx-auto py-4 flex justify-between items-center">
             <a href="/index.html" class="font-bold text-xl font-header">
-                <div class="logo">
-                    GAFCON
-                    <!-- <img src="/src/logo.png" alt="Ganiu Furniture and Construction Logo"> -->
+                 <div class="logo">
+                    
+                    <img src="/src/logo.png" alt="Ganiu Furniture and Construction Logo">
                 </div>
             </a>
 
@@ -163,7 +172,8 @@
                         </div>
 
                         <div class="post-img my-5 pt-3">
-                            <img src="/src/img/blog/blog-post.jpg" alt="Blog Post" class="w-full md:h-96 h-64 object-cover mt-8">
+                            <img src="/src/img/blog/blog-post.jpg" alt="Blog Post"
+                                class="w-full md:h-96 h-64 object-cover mt-8">
                             <!-- Caption -->
                             <figcaption class="text-sm text-gray-400 italic">
                                 Image courtesy of
@@ -215,145 +225,183 @@
                         </div>
 
                         <!-- copy link and social links -->
-                     <div class="copy-link-social flex gap-2 items-center text-gray-600 pt-5 pb-5">
-                        <p class="cursor-pointer text-gray-600 text-xs space-x-1 border-2 border-gray-300 py-1 px-2 rounded-md"> 
-                            <svg class="inline w-4 h-4" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke="currentColor" d="M4.16699 12.5H3.33366C2.89163 12.5 2.46771 12.3244 2.15515 12.0118C1.84259 11.6992 1.66699 11.2753 1.66699 10.8333V3.33329C1.66699 2.89127 1.84259 2.46734 2.15515 2.15478C2.46771 1.84222 2.89163 1.66663 3.33366 1.66663H10.8337C11.2757 1.66663 11.6996 1.84222 12.0122 2.15478C12.3247 2.46734 12.5003 2.89127 12.5003 3.33329V4.16663M9.16699 7.49996H16.667C17.5875 7.49996 18.3337 8.24615 18.3337 9.16663V16.6666C18.3337 17.5871 17.5875 18.3333 16.667 18.3333H9.16699C8.24652 18.3333 7.50033 17.5871 7.50033 16.6666V9.16663C7.50033 8.24615 8.24652 7.49996 9.16699 7.49996Z" stroke="#2A2A2A" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                        <div class="copy-link-social flex gap-2 items-center text-gray-600 pt-5 pb-5">
+                            <p
+                                class="cursor-pointer text-gray-600 text-xs space-x-1 border-2 border-gray-300 py-1 px-2 rounded-md">
+                                <svg class="inline w-4 h-4" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke="currentColor"
+                                        d="M4.16699 12.5H3.33366C2.89163 12.5 2.46771 12.3244 2.15515 12.0118C1.84259 11.6992 1.66699 11.2753 1.66699 10.8333V3.33329C1.66699 2.89127 1.84259 2.46734 2.15515 2.15478C2.46771 1.84222 2.89163 1.66663 3.33366 1.66663H10.8337C11.2757 1.66663 11.6996 1.84222 12.0122 2.15478C12.3247 2.46734 12.5003 2.89127 12.5003 3.33329V4.16663M9.16699 7.49996H16.667C17.5875 7.49996 18.3337 8.24615 18.3337 9.16663V16.6666C18.3337 17.5871 17.5875 18.3333 16.667 18.3333H9.16699C8.24652 18.3333 7.50033 17.5871 7.50033 16.6666V9.16663C7.50033 8.24615 8.24652 7.49996 9.16699 7.49996Z"
+                                        stroke="#2A2A2A" stroke-width="1.67" stroke-linecap="round"
+                                        stroke-linejoin="round" />
                                 </svg>
-                                
-                            Copy link</p>
-                        
-                        <p class="cursor-pointer text-gray-600 text-xs border-2 border-gray-300 py-1 px-2 rounded-md"> 
-                            <a href="" target="_blank">
-                            <svg class="inline w-4 h-4" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6.2918 17.125C13.8371 17.125 17.9652 10.8723 17.9652 5.45155C17.9652 5.27577 17.9613 5.09608 17.9535 4.9203C18.7566 4.33955 19.4496 3.62021 20 2.79608C19.2521 3.12883 18.458 3.34615 17.6449 3.44061C18.5011 2.92742 19.1421 2.12123 19.4492 1.17147C18.6438 1.6488 17.763 1.98551 16.8445 2.16718C16.2257 1.50963 15.4075 1.07426 14.5164 0.928376C13.6253 0.782488 12.711 0.934209 11.9148 1.36008C11.1186 1.78595 10.4848 2.46225 10.1115 3.28443C9.73825 4.1066 9.64619 5.02885 9.84961 5.90858C8.21874 5.82674 6.62328 5.40309 5.16665 4.66508C3.71002 3.92708 2.42474 2.8912 1.39414 1.6246C0.870333 2.5277 0.710047 3.59637 0.945859 4.61341C1.18167 5.63045 1.79589 6.51954 2.66367 7.09999C2.01219 7.0793 1.37498 6.9039 0.804688 6.58827V6.63905C0.804104 7.58679 1.13175 8.50549 1.73192 9.23897C2.3321 9.97246 3.16777 10.4755 4.09687 10.6625C3.49338 10.8276 2.85999 10.8517 2.2457 10.7328C2.50788 11.5479 3.01798 12.2607 3.70481 12.7719C4.39164 13.2831 5.22093 13.5672 6.07695 13.5844C4.62369 14.7259 2.82848 15.3451 0.980469 15.3422C0.652739 15.3417 0.325333 15.3216 0 15.282C1.87738 16.4865 4.06128 17.1262 6.2918 17.125Z" fill="#656565"/>
-                                </svg>
-                            </a>
-                                </p>
-                        
-                        <p class="cursor-pointer text-gray-600 text-xs border-2 border-gray-300 py-1 px-2 rounded-md"> 
-                            <a href="" target="_blank">
-                            <svg class="inline w-4 h-4" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M20 10C20 4.47715 15.5229 0 10 0C4.47715 0 0 4.47715 0 10C0 14.9912 3.65684 19.1283 8.4375 19.8785V12.8906H5.89844V10H8.4375V7.79688C8.4375 5.29063 9.93047 3.90625 12.2146 3.90625C13.3084 3.90625 14.4531 4.10156 14.4531 4.10156V6.5625H13.1922C11.95 6.5625 11.5625 7.3334 11.5625 8.125V10H14.3359L13.8926 12.8906H11.5625V19.8785C16.3432 19.1283 20 14.9912 20 10Z" fill="#656565"/>
+
+                                Copy link
+                            </p>
+
+                            <p
+                                class="cursor-pointer text-gray-600 text-xs border-2 border-gray-300 py-1 px-2 rounded-md">
+                                <a href="" target="_blank">
+                                    <svg class="inline w-4 h-4" viewBox="0 0 20 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.2918 17.125C13.8371 17.125 17.9652 10.8723 17.9652 5.45155C17.9652 5.27577 17.9613 5.09608 17.9535 4.9203C18.7566 4.33955 19.4496 3.62021 20 2.79608C19.2521 3.12883 18.458 3.34615 17.6449 3.44061C18.5011 2.92742 19.1421 2.12123 19.4492 1.17147C18.6438 1.6488 17.763 1.98551 16.8445 2.16718C16.2257 1.50963 15.4075 1.07426 14.5164 0.928376C13.6253 0.782488 12.711 0.934209 11.9148 1.36008C11.1186 1.78595 10.4848 2.46225 10.1115 3.28443C9.73825 4.1066 9.64619 5.02885 9.84961 5.90858C8.21874 5.82674 6.62328 5.40309 5.16665 4.66508C3.71002 3.92708 2.42474 2.8912 1.39414 1.6246C0.870333 2.5277 0.710047 3.59637 0.945859 4.61341C1.18167 5.63045 1.79589 6.51954 2.66367 7.09999C2.01219 7.0793 1.37498 6.9039 0.804688 6.58827V6.63905C0.804104 7.58679 1.13175 8.50549 1.73192 9.23897C2.3321 9.97246 3.16777 10.4755 4.09687 10.6625C3.49338 10.8276 2.85999 10.8517 2.2457 10.7328C2.50788 11.5479 3.01798 12.2607 3.70481 12.7719C4.39164 13.2831 5.22093 13.5672 6.07695 13.5844C4.62369 14.7259 2.82848 15.3451 0.980469 15.3422C0.652739 15.3417 0.325333 15.3216 0 15.282C1.87738 16.4865 4.06128 17.1262 6.2918 17.125Z"
+                                            fill="#656565" />
                                     </svg>
                                 </a>
-                                    </p>
-                        
-                        <p class="cursor-pointer text-gray-600 text-xs border-2 border-gray-300 p-1 px-2 rounded-md"> 
-                            <a href="" target="_blank">
-                            <svg class="inline w-4 h-4" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z" fill="#656565"/>
+                            </p>
+
+                            <p
+                                class="cursor-pointer text-gray-600 text-xs border-2 border-gray-300 py-1 px-2 rounded-md">
+                                <a href="" target="_blank">
+                                    <svg class="inline w-4 h-4" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20 10C20 4.47715 15.5229 0 10 0C4.47715 0 0 4.47715 0 10C0 14.9912 3.65684 19.1283 8.4375 19.8785V12.8906H5.89844V10H8.4375V7.79688C8.4375 5.29063 9.93047 3.90625 12.2146 3.90625C13.3084 3.90625 14.4531 4.10156 14.4531 4.10156V6.5625H13.1922C11.95 6.5625 11.5625 7.3334 11.5625 8.125V10H14.3359L13.8926 12.8906H11.5625V19.8785C16.3432 19.1283 20 14.9912 20 10Z"
+                                            fill="#656565" />
                                     </svg>
-                                    </a>
-                                    </p>
-                        
-                     </div>
+                                </a>
+                            </p>
+
+                            <p
+                                class="cursor-pointer text-gray-600 text-xs border-2 border-gray-300 p-1 px-2 rounded-md">
+                                <a href="" target="_blank">
+                                    <svg class="inline w-4 h-4" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
+                                            fill="#656565" />
+                                    </svg>
+                                </a>
+                            </p>
+
+                        </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
 
 
         <!-- Blog -->
-<section class="blog">
-    <div class="container mx-auto py-16 w-11/12 lg:w-10/12">
-        <h2 class="md:text-4xl text-3xl font-header font-semibold mb-10 text-gray-800">Checkout More Stories</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <section class="blog">
+            <div class="container mx-auto py-16 w-11/12 lg:w-10/12">
+                <h2 class="md:text-4xl text-3xl font-header font-semibold mb-10 text-gray-800">Checkout More Stories
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
-        <!-- Blog Post -->
-        <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
-          <a href="/src/blog-post.html">
-            <img src="/src/img/blog/blog-img1.jpg" alt="Blog Post Image" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
-              <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture Care</h3>
-              <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a decision that adds
-                both style and comfort to your living spaces.</p>
+                    <!-- Blog Post -->
+                    <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
+                        <a href="/src/blog-post.html">
+                            <img src="/src/img/blog/blog-img1.jpg" alt="Blog Post Image"
+                                class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
+                                <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture
+                                    Care</h3>
+                                <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a
+                                    decision that adds
+                                    both style and comfort to your living spaces.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Blog Post -->
+                    <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
+                        <a href="">
+                            <img src="/src/img/blog/blog-img2.jpg" alt="Blog Post Image"
+                                class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
+                                <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture
+                                    Care</h3>
+                                <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a
+                                    decision that adds
+                                    both style and comfort to your living spaces.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Blog Post -->
+                    <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
+                        <a href="">
+                            <img src="/src/img/blog/blog-img3.jpg" alt="Blog Post Image"
+                                class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
+                                <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture
+                                    Care</h3>
+                                <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a
+                                    decision that adds
+                                    both style and comfort to your living spaces.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Blog Post -->
+                    <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
+                        <a href="">
+                            <img src="/src/img/blog/blog-img1.jpg" alt="Blog Post Image"
+                                class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
+                                <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture
+                                    Care</h3>
+                                <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a
+                                    decision that adds
+                                    both style and comfort to your living spaces.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Blog Post -->
+                    <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
+                        <a href="">
+                            <img src="/src/img/blog/blog-img2.jpg" alt="Blog Post Image"
+                                class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
+                                <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture
+                                    Care</h3>
+                                <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a
+                                    decision that adds
+                                    both style and comfort to your living spaces.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Blog Post -->
+                    <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
+                        <a href="">
+                            <img src="/src/img/blog/blog-img3.jpg" alt="Blog Post Image"
+                                class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
+                                <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture
+                                    Care</h3>
+                                <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a
+                                    decision that adds
+                                    both style and comfort to your living spaces.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- See More -->
+                <div class="mt-10 flex justify-end w-full">
+                    <a href="#seemore"
+                        class="btn-primary border-2 border-secondary text-secondary hover:text-white hover:bg-secondary px-4 py-2 flex  items-center gap-2 font-header transition-all duration-300 ease-in-out">See
+                        More
+                        <svg class="w-6 h-6 inline" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 12H5m14 0-4 4m4-4-4-4" />
+                        </svg>
+                    </a>
+                </div>
             </div>
-          </a>
-        </div>
-
-        <!-- Blog Post -->
-        <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
-          <a href="">
-            <img src="/src/img/blog/blog-img2.jpg" alt="Blog Post Image" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
-              <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture Care</h3>
-              <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a decision that adds
-                both style and comfort to your living spaces.</p>
-            </div>
-          </a>
-        </div>
-        
-        <!-- Blog Post -->
-        <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
-          <a href="">
-            <img src="/src/img/blog/blog-img3.jpg" alt="Blog Post Image" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
-              <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture Care</h3>
-              <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a decision that adds
-                both style and comfort to your living spaces.</p>
-            </div>
-          </a>
-        </div>
-
-        <!-- Blog Post -->
-        <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
-          <a href="">
-            <img src="/src/img/blog/blog-img1.jpg" alt="Blog Post Image" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
-              <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture Care</h3>
-              <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a decision that adds
-                both style and comfort to your living spaces.</p>
-            </div>
-          </a>
-        </div>
-
-        <!-- Blog Post -->
-        <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
-          <a href="">
-            <img src="/src/img/blog/blog-img2.jpg" alt="Blog Post Image" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
-              <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture Care</h3>
-              <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a decision that adds
-                both style and comfort to your living spaces.</p>
-            </div>
-          </a>
-        </div>
-
-        <!-- Blog Post -->
-        <div class="blog-post border-t-3 bg-primary border-secondary max-w-md mx-auto">
-          <a href="">
-            <img src="/src/img/blog/blog-img3.jpg" alt="Blog Post Image" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <p class="blog-date text-sm text-gray-400 my-2">March 1, 2021</p>
-              <h3 class="blog-title text-secondary-light text-lg font-medium font-header">Furniture Care</h3>
-              <p class="blog-content text-gray-300 text-sm mt-2">Investing in quality furniture is a decision that adds
-                both style and comfort to your living spaces.</p>
-            </div>
-          </a>
-        </div>
-
-      </div>
-
-       <!-- See More -->
-       <div class="mt-10 flex justify-end w-full">
-        <a href="#seemore"
-          class="btn-primary border-2 border-secondary text-secondary hover:text-white hover:bg-secondary px-4 py-2 flex  items-center gap-2 font-header transition-all duration-300 ease-in-out">See More
-          <svg class="w-6 h-6 inline" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-            fill="none" viewBox="0 0 24 24">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M19 12H5m14 0-4 4m4-4-4-4" />
-          </svg>
-        </a>
-      </div>
-      </div>
-  </section>
+        </section>
 
     </main>
 
@@ -363,9 +411,15 @@
             <div class="footer-content grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
                 <!-- Footer Column -->
                 <div class="footer-column">
-                    <h3 class="text-white font-header font-bold text-xl mb-4">GAFCON</h3>
-                    <p class="text-white max-w-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                        quidem.</p>
+          <h3 class="text-white font-header font-bold text-xl mb-2">
+            <a href="/index.html" class="font-bold text-xl font-header">
+              <div class="logo w-15 h-15">
+                <img src="/src/img/logo-s.png" alt="Ganiu Furniture and Construction Logo">
+              </div>
+            </a>
+          </h3>
+          <p class="text-white max-w-sm text-sm">Experience the difference that passion for design, commitment to quality, and personalized service.</p>
+
 
                     <!-- Footer Column -->
                     <div class="footer-column mt-5 space-y-1">
