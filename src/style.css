@@ -4,13 +4,17 @@
 
 @theme {
     /* Colors */
-    --color-primary: #3E3834;
-    --color-secondary: #C38662;
-    --color-secondary-light: #F7CAB0;
+    --color-primary:   #e41817;
+    --color-secondary: #ef8b1b;
+    --color-secondary-light: #fbb666;
     --color-tertiary: #333333;
+
 
     /* Fonts */
     --font-header: 'Playfair Display', serif;
     --font-body: 'Source Sans Pro', sans-serif;
 }
 
+colos {
+    color: #fbb666;
+}
