@@ -3,8 +3,8 @@ name: 🚀 React App Deployment
 on:
   push:
     branches:
-      - main
-  workflow_dispatch:
+      - main  # Only trigger on main branch
+  workflow_dispatch:  # Allow for remote triggering via GitHub UI
 
 jobs:
   build:
@@ -40,7 +40,7 @@ jobs:
           EOL
           
       - name: 📦 Upload build artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: build-files
           path: ./dist/
@@ -51,7 +51,7 @@ jobs:
     needs: build
     steps:
       - name: 📥 Download build artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: build-files
           path: ./dist/
@@ -64,4 +64,4 @@ jobs:
           password: ${{ secrets.password }}
           local-dir: ./dist/
           server-dir: ${{ secrets.server_dir }}
-          dangerous-clean-slate: true
+          dangerous-clean-slate: true  # Optional: Removes all files in the server-dir before uploading
